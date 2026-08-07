@@ -2607,5 +2607,34 @@
     "status": "ok"
   },
   "trade_date": "2026-08-07",
-  "market_status": "closed"
+  "market_status": "closed",
+  "snapshot_health": {
+    "status": "degraded",
+    "usable_for_trading_decision": false,
+    "schema_valid": true,
+    "generated_at_valid": true,
+    "generated_at": "2026-08-07T19:59:12.178945+08:00",
+    "evaluated_at": "2026-08-08T07:30:42.696111+08:00",
+    "valid_until": null,
+    "freshness_rule": "non_trading_day_internal_consistency_only",
+    "freshness_valid": true,
+    "age_minutes": 691.51,
+    "trading_date_valid": true,
+    "timezone_valid": true,
+    "market_session": "non_trading_day",
+    "core_indices_complete": true,
+    "core_index_coverage": 1.0,
+    "sector_coverage": 0.7895,
+    "structural_completeness": 1.0,
+    "data_quality_score": 0.9684,
+    "quality_grade": "good",
+    "critical_missing": [],
+    "warnings": [
+      "market is not live on a non-trading day",
+      "optional sector coverage 15/19; missing: star_chip, memory_chip, ai_compute, dividend",
+      "collector reported 13 data-quality error(s)",
+      "snapshot is informational only and not usable for live trading decisions"
+    ],
+    "errors": []
+  }
 }
