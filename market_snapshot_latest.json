@@ -2605,5 +2605,7 @@
     "saved_rows": 15,
     "trading_days_available": 1,
     "status": "ok"
-  }
+  },
+  "trade_date": "2026-08-07",
+  "market_status": "closed"
 }
